@@ -1,0 +1,10 @@
+[Unit]
+Description=script daemon for turning off led at night
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/config.py
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
