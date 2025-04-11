@@ -6,6 +6,7 @@ Installation:
 - Make sure the Pironman5 package is installed and the service daemon is running 
 - Clone the repository to your Pi
 - Place the service file inside of the ```/etc/systemd/system``` directory.
+- Run the command ```python3 -m venv /home/pi/venv``` to create a python virtual enviornment
 - Then, reload the daemon and start the service
   - ```sudo systemctl daemon-reload```
   - ```sudo systemctl enable led_timer.service```
