@@ -2,7 +2,7 @@
 Description=script daemon for turning off led at night
 
 [Service]
-WorkingDirectory=/home/pi/scripts
+WorkingDirectory=/home/pi
 ExecStart=/home/pi/venv/bin/python /home/pi/led_timer.py
 Restart=always
 User=pi
