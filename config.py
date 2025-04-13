@@ -9,7 +9,7 @@ while True:
         subprocess.call(["pironman5 -re false"], shell=True)
         subprocess.call(["sudo systemctl restart pironman5.service"], shell=True)
         time.sleep(60)
-    if current_time == "9:00": # 9:00 AM
+    if current_time == "09:00": # 9:00 AM
         subprocess.call(["pironman5 -gm 0"], shell=True)
         subprocess.call(["pironman5 -re true"], shell=True)
         subprocess.call(["sudo systemctl restart pironman5.service"], shell=True)
